@@ -18,6 +18,32 @@
   npm t installation_test.js
   ```
 
+## USER NORE VERSION NODE
+* if you use 2 version node (because confict your projecct), I should you to use NVM
+https://github.com/creationix/nvm
+
+
+* install nvm
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
+
+
+* install node
+nvm install 8.15.1
+nvm install 10.15.3
+
+
+* change versi node
+nvm use 10
+or
+nvm use node 10
+
+nvm use 8
+
+
+* check version node (used now)
+node -v
+
+
 ## Running exercises
 
 Each exercise/test file:
@@ -37,27 +63,6 @@ Each exercise/test file:
     ```
     // @ts-ignore
     ```
-## USER NORE VERSION NODE
-* if you use 2 version node (because confict your projecct), I should you to use NVM
-https://github.com/creationix/nvm
-
-
-* install nvm
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
-
-
-* install node
-nvm install 8.15.1
-nvm install 10.15.3
-
-
-* change versi node
-nvm use 10
-nvm use 8
-
-
-* check version node (used now)
-node -v
 
 
 
