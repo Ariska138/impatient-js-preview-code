@@ -66,7 +66,7 @@ Each exercise/test file:
 
 
 
-##Ref/link:
+## Ref/link:
 
 * repo: https://github.com/Ariska138/impatient-js-preview-code.git
 * fork from: http://exploringjs.com/impatient-js/index.html
