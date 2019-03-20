@@ -67,6 +67,7 @@ Each exercise/test file:
 
 
 ##Ref/link:
-repo: https://github.com/Ariska138/impatient-js-preview-code.git
-fork from: http://exploringjs.com/impatient-js/index.html
-doc: http://exploringjs.com/impatient-js/ch_quizzes-exercises.html#quizzes
+
+* repo: https://github.com/Ariska138/impatient-js-preview-code.git
+* fork from: http://exploringjs.com/impatient-js/index.html
+* doc: http://exploringjs.com/impatient-js/ch_quizzes-exercises.html#quizzes
