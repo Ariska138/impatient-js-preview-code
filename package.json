@@ -1,0 +1,23 @@
+{
+  "name": "js-foundations-code",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "mocha --ui qunit_file_suites --require ./mocha/mocha_exercise_uis.js --require esm",
+    "testone": "mocha --ui qunit_never_skip --require ./mocha/mocha_exercise_uis.js --require esm",
+    "testall": "mocha --ui qunit_never_skip --require ./mocha/mocha_exercise_uis.js --require esm \"{exercises,demos}/**/*{_test,_exrc}.js\"",
+    "serve": "http-server test_data/"
+  },
+  "author": "Axel Rauschmayer",
+  "//": [
+    "http-server is needed for fetch_json_test.js and fetch_json_test2.js",
+    "isomorphic-fetch is needed for fetch_json_test.js and fetch_json_test2.js",
+    "object.fromentries polyfills Object.fromEntries() and is needed by omit_properties_test.js"
+  ],
+  "dependencies": {
+    "esm": "^3.2.18",
+    "http-server": "^0.11.1",
+    "isomorphic-fetch": "^2.2.1",
+    "mocha": "^6.0.2",
+    "object.fromentries": "^2.0.0"
+  }
+}
