@@ -18,7 +18,8 @@
   npm t installation_test.js
   ```
 
-## USER NORE VERSION NODE
+## If Use Some Version Nodes
+
 * if you use 2 version node (because confict your projecct), I should you to use NVM
 https://github.com/creationix/nvm
 
@@ -65,8 +66,7 @@ Each exercise/test file:
     ```
 
 
-
-## Ref/link:
+## Refferensi / link:
 
 * repo: https://github.com/Ariska138/impatient-js-preview-code.git
 * fork from: http://exploringjs.com/impatient-js/index.html
